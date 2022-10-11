@@ -1,0 +1,28 @@
+[package]
+name = "p2p_nft_lending"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "p2p_nft_lending"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+solana-program = "1.5.5"
+anchor-lang = {version = "0.25.0", features = ["init-if-needed"]}
+anchor-spl = "0.25.0"
+spl-token = "3.2.0"
+num_enum = "0.5.7"  
+uint = "0.9.4"
+static_assertions = "1.1.0"
+
+[dev-dependencies]
+proptest = "1.0.0"

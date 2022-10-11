@@ -1,0 +1,7 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc a373439e2766b977117829a8f8a4af48c6d235c56310f9296e742c55f1dd1d1d # shrinks to duration = 10000, (nft_worth, borrow_amount, interest_rate, _fee_percentage, ltv) = (2649027236398948, 1295, 140, 35, 675)
