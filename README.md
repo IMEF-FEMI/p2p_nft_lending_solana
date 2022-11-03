@@ -1,4 +1,4 @@
-## NFT P2P Lending Program with Dao-Like management
+## NFT P2P Lending Program with Multisig management
 
 - Solana program to allow owners of nft's borrow (spl-tokens / SOL) from others using their asset as collateral. 
 - The program makes use of a Multisig to manage certain aspects of the platform like setting of interest rates, fees, and ltv
