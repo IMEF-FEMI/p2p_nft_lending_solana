@@ -1,18 +1,59 @@
-## NFT P2P Lending Program with Dao-Like management
+# P2P NFT/Token lending Program with Multisig management
 
-- Solana program to allow owners of nft's borrow (spl-tokens / SOL) from others using their asset as collateral. 
-- The program makes use of a Multisig to manage certain aspects of the platform like setting of interest rates, fees, and ltv
-- Also, the program structured to allow both Lend and Borrow NFT to be transferrable making sure obligation is not tied down to an account
+# 📝 About
+- This program to allows users to deposit their nft's as collateral borrow (spl-tokens / SOL) from others using their asset as collateral.
+- Both lender and borrower receives reward NFT's which is tied to their underlying asset
+- reward NFT's are TOTALLY transferrable making sure obligations are not tied to a wallet
 
-### How it works?
-1. request_for_loan: NFT holder deposits nft as collateral and receives a BorrowNFT to represent deposited asset and borrowed tokens
-2. grant_loan: Lender deposits tokens to the vault(escrow) and also receives a LendNFT to represent assets loaned to the nft owner
-3. borrower pays back loan with interest and takes back nft (and the BorrowNFT gets burned) or defaults on loan payment and forfeits asset to the lender
-4.  lender can either seize asset or sell asset on the platform to recover his money (LendNFT also gets burned)
+## 🚀 Features
+
+#
+
+## Multsig
+- set owners
+- set platform fee percentage
+- set APY / interest rate
+- set LTV 
+- withdraw fee
+## Borrower
+- Request tokens(Borrow) from lenders using nft as collateral
+- Receive Reward NFT to represent Loan obligation
+- Pay back loan with accrued interest (as at the current time)
+- Withdraw original NFT from Platform
+- original NFT gets forfeited if user borrower is unable to pay back at set time
+
+## Lender
+- Grant user loan request
+- Receive Reward NFT to represent tokens lent 
+- Tokens accrue interest based on currently set APY
+- Seize or list NFT for sale if borrower is unable to pay
+
 
 ### Kindly Note
 
-this program has not audited 😀.
+this program has not been audited 😀.
+
+
+
+## 🔥 How to test
+
+### Prerequisites
+
+- <a href="https://docs.solana.com/cli/install-solana-cli-tools">Solana</a>
+
+### Installation
+
+- Fork the Repository
+
+```
+   $ git clone https://github.com/IMEF-FEMI/solana_p2p_nft_lending.git
+   $ cd Sol-Loan-a-NFT 
+   $ git remote add upstream https://github.com/IMEF-FEMI/solana_p2p_nft_lending.git
+   $ yarn install
+   $ yarn run build:program
+   $ anchor test
+```
+
 
 ### feedbacks would be greatly appreciated
 
