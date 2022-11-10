@@ -51,7 +51,6 @@ this program has not been audited 😀.
    $ cd Sol-Loan-a-NFT 
    $ git remote add upstream https://github.com/IMEF-FEMI/solana_p2p_nft_lending.git
    $ yarn install
-   $ yarn run build:program
    $ anchor test
 ```
 
