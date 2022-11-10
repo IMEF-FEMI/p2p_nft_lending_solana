@@ -4,6 +4,7 @@
 - This program to allows users to deposit their nft's as collateral borrow (spl-tokens / SOL) from others using their asset as collateral.
 - Both lender and borrower receives reward NFT's which is tied to their underlying asset
 - reward NFT's are TOTALLY transferrable making sure obligations are not tied to a wallet
+- interests are compounded per slot
 
 ## 🚀 Features
 
