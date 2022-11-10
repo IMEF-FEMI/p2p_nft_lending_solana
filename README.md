@@ -8,8 +8,6 @@
 
 ## 🚀 Features
 
-#
-
 ## Multsig
 - set owners
 - set platform fee percentage
