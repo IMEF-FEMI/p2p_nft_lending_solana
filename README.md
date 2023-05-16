@@ -55,6 +55,6 @@ this program has not been audited 😀.
 
 ### feedbacks would be greatly appreciated
 
-Feel free to reach out to me at [@dev_femi](https://twitter.com/dev_femi) on Twitter! or simply open a PR 😀 - Thank You!
+Feel free to reach out to me at [@femi_0x](https://twitter.com/femi_0x) on Twitter! or simply open a PR 😀 - Thank You!
 
 Inspired by [https://github.com/PirosB3/SafePaySolana](https://github.com/PirosB3/SafePaySolana) 
